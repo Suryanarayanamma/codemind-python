@@ -1,7 +1,7 @@
 a=int(input())
 b=int(input())
-temp=a
+t=a
 a=b
-b=temp
+b=t
 print(f"{a}")
 print(f"{b}")
