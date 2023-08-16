@@ -1,0 +1,12 @@
+a=int(input())
+if(a<=10000):
+    da=0.8*a
+    hra=0.2*a
+elif(a<=20000):
+    da=0.9*a
+    hra=0.25*a
+else:
+    da=0.95*a
+    hra=0.3*a
+g=a+da+hra
+print(f"{g:.2f}")
