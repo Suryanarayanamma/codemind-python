@@ -1,0 +1,5 @@
+n=int(input())
+k=list(map(int,input().split()))
+s1=sum(k[1:n:2])
+s2=sum(k[0:n:2])
+print(abs(s1-s2))
