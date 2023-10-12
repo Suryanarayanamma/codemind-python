@@ -1,4 +1,10 @@
 n=int(input())
-k=list(map(int,input().split()))
-l=sum(k)//n
-print(l in k)
+num=list(map(int,input().split()))
+s=0
+for i in range(1,n):
+    s=s+i
+avg=s//n
+if avg in num:
+    print("True")
+else:
+    print("False")
