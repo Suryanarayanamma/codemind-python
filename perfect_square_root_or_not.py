@@ -1,12 +1,10 @@
 n=int(input())
-flag=False
+f=False
 for i in range(n):
-    if(i*i==n):
-        flag=True
+    if i*i==n:
+        f=True
         break
-    else:
-        flag=False
-if flag==True:
+if f==True:
     print("True")
 else:
     print("False")
