@@ -1,8 +1,8 @@
 n=int(input())
-sq=n*n
 k=str(n)
-x=str(sq)
-if k in x:
+sq=n*n
+sq1=str(sq)
+if k in sq1:
     print("Automorphic Number")
 else:
     print("Not an Automorphic Number")
